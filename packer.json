@@ -27,7 +27,7 @@
   "ssh_username": "{{user `ssh_username`}}",
   "image_name": "{{user `image_name`}}",
   "networks": "{{user `networks`}}",
-  "source_image_name": "xenial_root_enabled",
+  "source_image_name": "xenial_proxy_root_enabled",
   "flavor": "{{user `flavor`}}",
   "insecure": "{{user `insecure`}}"
   }
