@@ -45,7 +45,7 @@
 	"sleep 30",
         "mkdir -p /etc/apt && sudo touch /etc/apt/apt.conf",
         "cp /tmp/apt.conf /etc/apt/apt.conf",
-        "apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes python2.7",
+        "pkill apt && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y python2.7",
         "apt-get install -y python-pip",
         "mkdir -p /opt/dtedge/system-uptime"
       ]
